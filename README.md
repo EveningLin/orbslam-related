@@ -18,4 +18,6 @@
 
 测试：在连续帧就可以证明
 
+https://github.com/zju3dv/LoFTR/tree/master
+
 【改进版】Efficient LoFTR
