@@ -31,6 +31,9 @@ https://github.com/zju3dv/LoFTR/tree/master
 https://github1s.com/Rich-King395/ORB-SLAM3-with-dense-pointcloud-reconstruction/blob/HEAD/src/SlamDataPub.cc#L154
 
 【参考工作】https://blog.csdn.net/crp997576280/category_8062389.html
+
+【带八叉树】
+https://github1s.com/Ewenwan/ORB-SLAM-RGBD-with-Octomap/blob/HEAD/MapDrawer.cc
 ### 2.2 单目相机
 https://www.bilibili.com/video/BV1LS4y1C7u2/?spm_id_from=333.788.recommend_more_video.16&vd_source=0ada5c95f58cb319a77c62f35a4c0057
 
