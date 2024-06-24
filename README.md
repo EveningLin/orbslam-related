@@ -37,5 +37,5 @@ https://github1s.com/Ewenwan/ORB-SLAM-RGBD-with-Octomap/blob/HEAD/MapDrawer.cc
 https://github.com/ruoxi521/ORB_SLAM3_Sematic_Extension.git
 ### 2.2 单目相机
 https://www.bilibili.com/video/BV1LS4y1C7u2/?spm_id_from=333.788.recommend_more_video.16&vd_source=0ada5c95f58cb319a77c62f35a4c0057
-
+https://www.bilibili.com/video/BV19Y41167Ww/?spm_id_from=333.788.recommend_more_video.7&vd_source=0ada5c95f58cb319a77c62f35a4c0057
 ## 3.检测，分割
