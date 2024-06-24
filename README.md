@@ -21,3 +21,8 @@
 https://github.com/zju3dv/LoFTR/tree/master
 
 【改进版】Efficient LoFTR
+
+## 2.点云地图
+生成点云的代码可以使用cuda实现
+
+【参考工作】https://github1s.com/gaoxiang12/ORBSLAM2_with_pointcloud_map/blob/master/ORB_SLAM2_modified/src/pointcloudmapping.cc#L59
