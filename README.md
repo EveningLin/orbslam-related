@@ -27,6 +27,8 @@ https://github.com/zju3dv/LoFTR/tree/master
 生成点云的代码可以使用cuda实现
 
 【参考工作】https://github1s.com/gaoxiang12/ORBSLAM2_with_pointcloud_map/blob/master/ORB_SLAM2_modified/src/pointcloudmapping.cc#L59
+
+【参考工作】https://blog.csdn.net/crp997576280/category_8062389.html
 ### 2.2 单目相机
 https://www.bilibili.com/video/BV1LS4y1C7u2/?spm_id_from=333.788.recommend_more_video.16&vd_source=0ada5c95f58cb319a77c62f35a4c0057
 
