@@ -42,6 +42,10 @@ https://www.bilibili.com/video/BV19Y41167Ww/?spm_id_from=333.788.recommend_more_
 zoedepth 和 metric3d
 https://github.com/yvanyin/metric3d
 ## 3.检测，分割
+https://github1s.com/YWL0720/YOLO_ORB_SLAM3/blob/master/src/YoloDetect.cpp#L67
+
+* 用yolov8,其实应该是可以并行的https://github1s.com/YWL0720/YOLO_ORB_SLAM3/blob/master/src/YoloDetect.cpp#L67
+* 动态检测写的太粗暴了，直接用类型筛选，可以挂一个sort/或者假设是静止的获得一个Rt和真实Rt作比较
 
 ## 4.初始化修改
 https://github.com/lturing/ORB_SLAM3_FAST_IMU_INIT
