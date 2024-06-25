@@ -47,5 +47,8 @@ https://github.com/yvanyin/metric3d
 https://github.com/lturing/ORB_SLAM3_FAST_IMU_INIT
 
 ## 5.地图保存
-[****](https://github.com/TUMFTM/orbslam-map-saving-extension)
-](https://github.com/TUMFTM/orbslam-map-saving-extension)
+https://github.com/TUMFTM/orbslam-map-saving-extension
+
+## 6.回环检测
+## 6.1 深度方法
+https://github1s.com/Mingrui-Yu/A-Simple-Stereo-SLAM-System-with-Deep-Loop-Closing/blob/master/src/loopclosing.cpp#L453
