@@ -57,3 +57,13 @@ https://github.com/TUMFTM/orbslam-map-saving-extension
 ## 6.回环检测
 ## 6.1 深度方法
 https://github1s.com/Mingrui-Yu/A-Simple-Stereo-SLAM-System-with-Deep-Loop-Closing/blob/master/src/loopclosing.cpp#L453
+
+## 7.动态移除
+### 7.1 算理
+使用光流法获得对应点，获得两帧之间的基础矩阵，检查离群点（偏离图2的极线）
+
+进一步使用分割网络去除点
+
+【参考代码】https://github1s.com/ivipsourcecode/DS-SLAM/blob/master/src/Frame.cc#L339
+
+
