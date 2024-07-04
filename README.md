@@ -68,4 +68,19 @@ https://github1s.com/Mingrui-Yu/A-Simple-Stereo-SLAM-System-with-Deep-Loop-Closi
 
 【参考代码】https://github1s.com/ivipsourcecode/DS-SLAM/blob/master/src/Frame.cc#L339
 
+## 8.小林的一些想法
+## 8.1 跟踪真的有意义吗？
+在低速情况下，连续几帧逻辑上讲应该会存在大量的关键点被观测到，那么此时的跟踪并不会产生关键点之类的操作。
+
+如果这个连续帧的数量可以被设置为某一个阈值，那么在这个时间内还不如直接去用更加耗时的线特征和面特征处理关键帧，在超过这个时间之后在使用点特征去跟踪
+
+在延伸一下，如果用superpoint获得每一帧上的点，但是用lsd只获得关键帧上的线并将关键帧中的点和线进行关联逻辑上是不是会取得更好的效果呢？
+
+## 8.2 动态物体的滤除
+如果存在一个贴着地面行走的相机，此时目标检测到的物体的距离d1，相机移动T，此时可以看见物体距离为d2
+
+已知道d1，相机移动距离t2，它们形成的角度其实应该是可以求的，记为d_guess,如果静止|d2 - d_guess| < thresh
+
+【资料汇总】https://zhuanlan.zhihu.com/p/307423490
+
 
